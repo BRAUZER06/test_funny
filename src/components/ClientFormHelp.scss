@@ -1,0 +1,55 @@
+.formHelp-container {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(255, 255, 255);
+	padding: 10px 40px 30px;
+	border-radius: 8px;
+	width: 400px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+	> h2 {
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+.formHelp-item {
+	display: flex;
+	margin-bottom: 20px;
+
+	> p {
+		margin: 0;
+		font-size: 14px;
+	}
+	span {
+		display: inline-block;
+		font-size: 17px;
+		font-weight: 500;
+		margin-bottom: 5px;
+	}
+
+	.formHelp-number {
+	}
+}
+
+.form-btn {
+	margin: 10px auto 0;
+	background-color: #00796b;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-size: 17px;
+	color: #fff;
+	margin-left: auto;
+	display: block;
+
+	&:hover {
+		background-color: #009987;
+	}
+
+	img {
+		margin-right: 7px;
+		width: 20px;
+	}
+}
